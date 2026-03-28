@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALÈS — Paris</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0D1B2A;
+    font-family: 'Cormorant Garamond', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FAFCFF;
+  }
+
+  .container {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 600px;
+  }
+
+  .brand {
+    font-size: 11px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #5B8FA8;
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  .rule {
+    width: 30px;
+    height: 1px;
+    background: #5B8FA8;
+    margin: 0 auto 48px;
+    opacity: 0.5;
+  }
+
+  h1 {
+    font-size: clamp(52px, 10vw, 88px);
+    font-weight: 300;
+    letter-spacing: 16px;
+    color: #FAFCFF;
+    margin-bottom: 32px;
+    line-height: 1;
+  }
+
+  .tagline {
+    font-size: clamp(15px, 3vw, 19px);
+    font-weight: 300;
+    font-style: italic;
+    color: #C8D0D8;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .rule2 {
+    width: 20px;
+    height: 1px;
+    background: #5B8FA8;
+    margin: 32px auto;
+    opacity: 0.4;
+  }
+
+  .coming {
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #5B8FA8;
+    margin-bottom: 8px;
+  }
+
+  .sub {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #3D6B82;
+    margin-bottom: 60px;
+  }
+
+  .instagram {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #5B8FA8;
+    text-decoration: none;
+    border-bottom: 1px solid #3D6B82;
+    padding-bottom: 2px;
+    transition: color 0.3s, border-color 0.3s;
+  }
+
+  .instagram:hover {
+    color: #FAFCFF;
+    border-color: #5B8FA8;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 24px;
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #1E3A78;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <span class="brand">Paris</span>
+  <div class="rule"></div>
+
+  <h1>ALÈS</h1>
+
+  <p class="tagline">Where the suit ends, the story begins.</p>
+
+  <div class="rule2"></div>
+
+  <p class="coming">Coming Soon</p>
+  <p class="sub">2026</p>
+
+  <a href="https://www.instagram.com/ales.paris" class="instagram" target="_blank">Follow on Instagram</a>
+</div>
+
+<footer>ales-paris.com</footer>
+
+</body>
+</html>
